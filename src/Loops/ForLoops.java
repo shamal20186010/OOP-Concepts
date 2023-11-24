@@ -81,6 +81,16 @@ public class ForLoops {
             System.out.print("/");
 
         }
+
+        for (int i = 0; i <= 5; i++) {
+            System.out.print("A");
+            for (int b = 0; b <= 5; b++) {
+                System.out.print("B");
+            }
+            System.out.print("C");
+            System.out.println(" ");
+        }
+
     }
 
 }
